@@ -53,7 +53,7 @@
                     android:layout_marginRight="20dp"
                     android:fontFamily="@font/regular"
                     android:gravity="center"
-                    android:text="অনলাইন সেবা"
+                    android:text="মৌলভীবাজার অনলাইন সেবা"
                     android:textColor="@color/white"
                     android:textSize="19sp"
                     android:textStyle="bold"
@@ -155,7 +155,7 @@
                         android:marqueeRepeatLimit="marquee_forever"
                         android:scrollHorizontally="true"
                         android:textColor="#333333"
-                        android:text="                     আসসালামু আলাইকুম।প্রিয় আমাদের এই অনলাইন সেবামূলক অ্যাপটিতে যুক্ত হওয়ার জন্য আপনাদের সবাইকে জানাই স্বাগতম। আপনাদের সুবিধার কথা চিন্তা করে মাগুরা জেলার জন্য এই অনলাইন সেবামূলক অ্যাপটি তৈরি করা। অ্যাপটি  ব্যবহার করে আপনার কেমন লাগছে সেটা আমাদের সাথে শেয়ার করতে পারেন।"
+                        android:text="                     আসসালামু আলাইকুম। আমাদের এই অনলাইন সেবামূলক অ্যাপটিতে যুক্ত হওয়ার জন্য আপনাদের সবাইকে জানাই স্বাগতম। আপনাদের সুবিধার কথা চিন্তা করে মৌলভীবাজার জেলার জন্য এই অনলাইন সেবামূলক অ্যাপটি তৈরি করা। অ্যাপটি  ব্যবহার করে আপনার কেমন লাগছে সেটা আমাদের সাথে শেয়ার করতে পারেন।"
                         />
                     <View
                         android:layout_width="1dp"
