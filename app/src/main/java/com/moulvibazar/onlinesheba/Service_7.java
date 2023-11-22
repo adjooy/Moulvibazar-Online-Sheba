@@ -43,9 +43,9 @@ public class Service_7 extends AppCompatActivity {
 
 
         //=======================================================Ads start=================================//
-        mAdView=findViewById(R.id.adView);
+//        mAdView=findViewById(R.id.adView);
 
-        mAdView.setVisibility(View.GONE);
+//        mAdView.setVisibility(View.GONE);
 
 
 

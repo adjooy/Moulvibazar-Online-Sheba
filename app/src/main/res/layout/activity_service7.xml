@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/Service7"
+        android:id="@+id/Service5"
         android:visibility="visible"
         android:layout_alignParentTop="true"
         >
@@ -101,14 +101,14 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="সদর মডেল থানা"
+                                android:text="মৌলভীবাজার থানা"
                                 android:textColor="@color/black"
                                 />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="01713-374179"
+                                android:text="01730-009185"
                                 android:textColor="#9F4124"
                                 android:textSize="16dp"
                                 android:layout_marginTop="4dp"
@@ -236,7 +236,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="01713-374180"
+                                android:text="01744-146496"
                                 android:textColor="#9F4124"
                                 android:textSize="16dp"
                                 android:layout_marginTop="4dp"
@@ -357,14 +357,14 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="শ্রীমঙ্গল থানা"
+                                android:text="কুলাউড়া থানা"
                                 android:textColor="@color/black"
                                 />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="01713-374181"
+                                android:text="01791-912286"
                                 android:textColor="#9F4124"
                                 android:textSize="16dp"
                                 android:layout_marginTop="4dp"
@@ -442,6 +442,14 @@
                     android:background="#AFADAD"
                     />
 
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#AFADAD"
+                    />
+
                 <androidx.cardview.widget.CardView
                     android:backgroundTint="#C6F8F1"
                     android:layout_width="match_parent"
@@ -477,8 +485,6 @@
                         </LinearLayout>
 
 
-
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -492,14 +498,14 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="কমলগঞ্জ থানা"
+                                android:text="রাজনগর থানা"
                                 android:textColor="@color/black"
                                 />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="01713-374182"
+                                android:text="01791-912286"
                                 android:textColor="#9F4124"
                                 android:textSize="16dp"
                                 android:layout_marginTop="4dp"
@@ -509,11 +515,7 @@
 
 
 
-
-
                         </LinearLayout>
-
-
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -569,16 +571,17 @@
 
 
 
-
-
-
-
-
-
-
-
                 </androidx.cardview.widget.CardView>
 
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#AFADAD"
+                    />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -620,8 +623,6 @@
                         </LinearLayout>
 
 
-
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -635,14 +636,14 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="জুড়ি  থানা"
+                                android:text="কমলগঞ্জ থানা"
                                 android:textColor="@color/black"
                                 />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="01713-374182"
+                                android:text="01791-912286"
                                 android:textColor="#9F4124"
                                 android:textSize="16dp"
                                 android:layout_marginTop="4dp"
@@ -652,11 +653,7 @@
 
 
 
-
-
                         </LinearLayout>
-
-
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -712,16 +709,17 @@
 
 
 
-
-
-
-
-
-
-
-
                 </androidx.cardview.widget.CardView>
 
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#AFADAD"
+                    />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -763,8 +761,6 @@
                         </LinearLayout>
 
 
-
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -778,14 +774,14 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="রাজনগর থানা"
+                                android:text="জুড়ী থানা"
                                 android:textColor="@color/black"
                                 />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="01713-374182"
+                                android:text="01791-912286"
                                 android:textColor="#9F4124"
                                 android:textSize="16dp"
                                 android:layout_marginTop="4dp"
@@ -795,11 +791,7 @@
 
 
 
-
-
                         </LinearLayout>
-
-
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -855,16 +847,17 @@
 
 
 
-
-
-
-
-
-
-
-
                 </androidx.cardview.widget.CardView>
 
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#AFADAD"
+                    />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -906,8 +899,6 @@
                         </LinearLayout>
 
 
-
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -921,14 +912,14 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="কুলাউড়া থানা"
+                                android:text="শ্রীমঙ্গল থানা"
                                 android:textColor="@color/black"
                                 />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="01713-374182"
+                                android:text="01791-912286"
                                 android:textColor="#9F4124"
                                 android:textSize="16dp"
                                 android:layout_marginTop="4dp"
@@ -938,11 +929,7 @@
 
 
 
-
-
                         </LinearLayout>
-
-
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -998,15 +985,28 @@
 
 
 
-
-
-
-
-
-
-
-
                 </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#AFADAD"
+                    />
+
+
 
 
 
@@ -1021,6 +1021,7 @@
 
 
     </LinearLayout>
+
 
 
 </RelativeLayout>

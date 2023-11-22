@@ -296,10 +296,11 @@ CardView Button1,Button2,Button3,Button4,Button5,Button6,Button7,Button8,Button9
             @Override
             public void onClick(View view) {
 
-                Web_browser.WEBSITE_LINK="https://daktarbook.com/district/doctor/35";
-                Web_browser.WEBSITE_TITLE="ডাক্তার লিস্ট";
-                Intent myIntent=new Intent(MainActivity.this,Web_browser.class);
-                startActivity(myIntent);
+//                Web_browser.WEBSITE_LINK="https://daktarbook.com/district/doctor/35";
+//                Web_browser.WEBSITE_TITLE="ডাক্তার লিস্ট";
+//                Intent myIntent=new Intent(MainActivity.this,Web_browser.class);
+//                startActivity(myIntent);
+                Toast.makeText(MainActivity.this,"শীঘ্রই আসছে",Toast.LENGTH_LONG).show();
 
             }
         });
@@ -373,11 +374,13 @@ CardView Button1,Button2,Button3,Button4,Button5,Button6,Button7,Button8,Button9
         Button13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//
+//                Web_browser.WEBSITE_LINK="https://www.foodpanda.com.bd/city/magura";
+//                Web_browser.WEBSITE_TITLE="রেস্টুরেন্ট";
+//                Intent myIntent=new Intent(MainActivity.this,Web_browser.class);
+//                startActivity(myIntent);
 
-                Web_browser.WEBSITE_LINK="https://www.foodpanda.com.bd/city/magura";
-                Web_browser.WEBSITE_TITLE="রেস্টুরেন্ট";
-                Intent myIntent=new Intent(MainActivity.this,Web_browser.class);
-                startActivity(myIntent);
+                Toast.makeText(MainActivity.this,"শীঘ্রই আসছে",Toast.LENGTH_LONG).show();
 
             }
         });
@@ -397,7 +400,13 @@ CardView Button1,Button2,Button3,Button4,Button5,Button6,Button7,Button8,Button9
             public void onClick(View view) {
 
 
-                Toast.makeText(MainActivity.this,"শীঘ্রই আসছে",Toast.LENGTH_LONG).show();
+                Web_browser.WEBSITE_LINK="https://eticket.railway.gov.bd/login/en";
+                Web_browser.WEBSITE_TITLE="রেল সেবা";
+                Intent myIntent=new Intent(MainActivity.this,Web_browser.class);
+                startActivity(myIntent);
+
+
+//                Toast.makeText(MainActivity.this,"শীঘ্রই আসছে",Toast.LENGTH_LONG).show();
 
 
 

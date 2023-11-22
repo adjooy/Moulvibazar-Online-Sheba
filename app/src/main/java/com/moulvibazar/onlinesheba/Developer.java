@@ -39,7 +39,7 @@ public class Developer extends AppCompatActivity {
         Call_me.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="048862443";
+                num="01764811767";
                 callPhoneNumber();
             }
         });
