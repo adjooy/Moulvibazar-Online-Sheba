@@ -21,49 +21,49 @@
         android:theme="@style/Theme.MaguraOnlineSeba"
         tools:targetApi="31">
         <activity
-            android:name="com.bd.onlinesheba.About_app"
+            android:name="com.moulvibazar.onlinesheba.About_app"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Developer"
+            android:name="com.moulvibazar.onlinesheba.Developer"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_12"
+            android:name="com.moulvibazar.onlinesheba.Service_12"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_3"
+            android:name="com.moulvibazar.onlinesheba.Service_3"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_11"
+            android:name="com.moulvibazar.onlinesheba.Service_11"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_10"
+            android:name="com.moulvibazar.onlinesheba.Service_10"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_9"
+            android:name="com.moulvibazar.onlinesheba.Service_9"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_8"
+            android:name="com.moulvibazar.onlinesheba.Service_8"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_6"
+            android:name="com.moulvibazar.onlinesheba.Service_6"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_7"
+            android:name="com.moulvibazar.onlinesheba.Service_7"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_5"
+            android:name="com.moulvibazar.onlinesheba.Service_5"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_4"
+            android:name="com.moulvibazar.onlinesheba.Service_4"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_2"
+            android:name="com.moulvibazar.onlinesheba.Service_2"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service_1"
+            android:name="com.moulvibazar.onlinesheba.Service_1"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Splash"
+            android:name="com.moulvibazar.onlinesheba.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -72,13 +72,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bd.onlinesheba.Web_browser"
+            android:name="com.moulvibazar.onlinesheba.Web_browser"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.Service"
+            android:name="com.moulvibazar.onlinesheba.Service"
             android:exported="false" />
         <activity
-            android:name="com.bd.onlinesheba.MainActivity"
+            android:name="com.moulvibazar.onlinesheba.MainActivity"
             android:exported="true"
             tools:ignore="ExtraText" />
 

@@ -1,4 +1,4 @@
-package com.bd.onlinesheba;
+package com.moulvibazar.onlinesheba;
 
 import org.junit.Test;
 

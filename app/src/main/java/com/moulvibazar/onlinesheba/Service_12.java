@@ -1,4 +1,4 @@
-package com.bd.onlinesheba;
+package com.moulvibazar.onlinesheba;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;

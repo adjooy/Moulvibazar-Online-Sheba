@@ -1,4 +1,4 @@
-package com.bd.onlinesheba;
+package com.moulvibazar.onlinesheba;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -17,36 +17,38 @@ import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 
-public class Service_6 extends AppCompatActivity {
+public class Service_10 extends AppCompatActivity {
 
     AdView mAdView;
     InterstitialAd mInterstitialAd;
-    public String num="";
+    LottieAnimationView Polli1,Polli2,Polli3,Polli4,Polli5,Polli6,Polli7,Polli8,Polli9,Polli10,Polli11,Polli12;
     ImageView back;
-    LottieAnimationView Help1,Help2,Help3,Help4,Help5,
-            Help6,Help7,Help8,Help9;
+    public  String num="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service6);
+        setContentView(R.layout.activity_service10);
 
 
-        Help1=findViewById(R.id.Help1);
-        Help2=findViewById(R.id.Help2);
-        Help3=findViewById(R.id.Help3);
-        Help4=findViewById(R.id.Help4);
-        Help5=findViewById(R.id.Help5);
-        Help6=findViewById(R.id.Help6);
-        Help7=findViewById(R.id.Help7);
-        Help8=findViewById(R.id.Help8);
-        Help9=findViewById(R.id.Help9);
+        Polli1=findViewById(R.id.polli1);
+        Polli2=findViewById(R.id.polli2);
+        Polli3=findViewById(R.id.polli3);
+        Polli4=findViewById(R.id.polli4);
+        Polli5=findViewById(R.id.polli5);
+        Polli6=findViewById(R.id.polli6);
+        Polli7=findViewById(R.id.polli7);
+        Polli8=findViewById(R.id.polli8);
+        Polli9=findViewById(R.id.polli9);
+        Polli10=findViewById(R.id.polli10);
+        Polli11=findViewById(R.id.polli11);
+        Polli12=findViewById(R.id.polli12);
 
-        back=findViewById(R.id.back6);
+        back=findViewById(R.id.back10);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Service_6.super.onBackPressed();
+                Service_10.super.onBackPressed();
 
             }
         });
@@ -56,75 +58,98 @@ public class Service_6 extends AppCompatActivity {
 
 
 
-        //=============================Helpline================================================//
-        Help1.setOnClickListener(new View.OnClickListener() {
+
+        //==================================Polli===============================================//
+        Polli1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="999";
+                num="01769-401404";
                 callPhoneNumber();
             }
         });
-        Help2.setOnClickListener(new View.OnClickListener() {
+        Polli2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="16575";
+                num="01769-402100";
                 callPhoneNumber();
             }
         });
-        Help3.setOnClickListener(new View.OnClickListener() {
+        Polli3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="109";
+                num="01769-401407";
                 callPhoneNumber();
             }
         });
-        Help4.setOnClickListener(new View.OnClickListener() {
+        Polli4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="1098";
+                num="01769-401408";
                 callPhoneNumber();
             }
         });
-        Help5.setOnClickListener(new View.OnClickListener() {
+        Polli5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="333";
+                num="01769-401405";
                 callPhoneNumber();
             }
         });
-        Help6.setOnClickListener(new View.OnClickListener() {
+        Polli6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="106";
+                num="01769-401411";
                 callPhoneNumber();
             }
         });
-        Help7.setOnClickListener(new View.OnClickListener() {
+        Polli7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="16430";
+                num="01769-401412";
                 callPhoneNumber();
             }
         });
-        Help8.setOnClickListener(new View.OnClickListener() {
+        Polli8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="1090";
+                num="01769-407029";
                 callPhoneNumber();
             }
         });
-        Help9.setOnClickListener(new View.OnClickListener() {
+        Polli9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="16122";
+                num="01769-401406";
+                callPhoneNumber();
+            }
+        });
+        Polli10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01769-401409";
+                callPhoneNumber();
+            }
+        });
+        Polli11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01769-401410";
+                callPhoneNumber();
+            }
+        });
+        Polli12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01769-402655";
                 callPhoneNumber();
             }
         });
 
-        //=============================end=====================================================//
+        //================================end==================================================//
 
 
     }
+
 
     //......................call method.....................//
 
@@ -148,7 +173,7 @@ public class Service_6 extends AppCompatActivity {
             if(Build.VERSION.SDK_INT > 22)
             {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(Service_6.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
+                    ActivityCompat.requestPermissions(Service_10.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
                     return;
                 }
 
@@ -170,8 +195,6 @@ public class Service_6 extends AppCompatActivity {
     }
 
     //==================================================================================//
-
-
 
 
 }

@@ -1,4 +1,4 @@
-package com.bd.onlinesheba;
+package com.moulvibazar.onlinesheba;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -15,74 +15,104 @@ import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
 
-public class Service_7 extends AppCompatActivity {
+public class Service_2 extends AppCompatActivity {
     AdView mAdView;
+    InterstitialAd mInterstitialAd;
 
-    public  String num="";
-    ImageView back;
-    LottieAnimationView Police1,Police2,Police3,Police4;
+
+    public String num="";
+     ImageView back2;
+    LottieAnimationView Hospital1,Hospital2,Hospital3,Hospital4,Hospital5,Hospital6,Hospital7,Hospital8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service7);
-
-        Police1=findViewById(R.id.police1);
-        Police2=findViewById(R.id.police2);
-        Police3=findViewById(R.id.police3);
-        Police4=findViewById(R.id.police4);
-        back=findViewById(R.id.back7);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Service_7.super.onBackPressed();
-
-            }
-        });
+        setContentView(R.layout.activity_service2);
 
 
-        //=======================================================Ads start=================================//
+        Hospital1=findViewById(R.id.Hospital1);
+        Hospital2=findViewById(R.id.Hospital2);
+        Hospital3=findViewById(R.id.Hospital3);
+        Hospital4=findViewById(R.id.Hospital4);
+        Hospital5=findViewById(R.id.Hospital5);
+        Hospital6=findViewById(R.id.Hospital6);
+        Hospital7=findViewById(R.id.Hospital7);
+        Hospital8=findViewById(R.id.Hospital8);
+        back2=findViewById(R.id.back2);
+
         mAdView=findViewById(R.id.adView);
 
         mAdView.setVisibility(View.GONE);
 
 
-
-
-
-
-        //==============================Police=================================================/
-        Police1.setOnClickListener(new View.OnClickListener() {
+        back2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                num="01713-374179";
-                callPhoneNumber();
-            }
-        });
-        Police2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                num="01713-374180";
-                callPhoneNumber();
-            }
-        });
-        Police3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                num="01713-374181";
-                callPhoneNumber();
-            }
-        });
-        Police4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                num="01713-374182";
-                callPhoneNumber();
+            public void onClick(View view) {
+
+                Service_2.super.onBackPressed();
+
             }
         });
 
-        //================================end==================================================//
+
+        Hospital1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="048862443";
+                callPhoneNumber();
+            }
+        });
+        Hospital2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num=" 01789-122193";
+                callPhoneNumber();
+            }
+        });
+        Hospital3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01715-119110";
+                callPhoneNumber();
+            }
+        });
+        Hospital4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01729-033018";
+                callPhoneNumber();
+            }
+        });
+        Hospital5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01311-444901";
+                callPhoneNumber();
+            }
+        });
+        Hospital6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01712-310309";
+                callPhoneNumber();
+            }
+        });
+        Hospital7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01715-534855";
+                callPhoneNumber();
+            }
+        });
+        Hospital8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01766-661177";
+                callPhoneNumber();
+            }
+        });
+
 
     }
 
@@ -109,7 +139,7 @@ public class Service_7 extends AppCompatActivity {
             if(Build.VERSION.SDK_INT > 22)
             {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(Service_7.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
+                    ActivityCompat.requestPermissions(Service_2.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
                     return;
                 }
 
@@ -131,9 +161,6 @@ public class Service_7 extends AppCompatActivity {
     }
 
     //==================================================================================//
-
-
-
 
 
 }

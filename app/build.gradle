@@ -14,7 +14,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.bd.onlinesheba"
+        applicationId "com.moulvibazar.onlinesheba"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -33,7 +33,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'com.bd.onlinesheba'
+    namespace 'com.moulvibazar.onlinesheba'
 }
 
 dependencies {
