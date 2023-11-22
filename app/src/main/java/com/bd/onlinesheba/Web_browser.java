@@ -18,6 +18,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.webkit.CookieManager;
 import android.webkit.URLUtil;
 import android.webkit.WebChromeClient;
@@ -68,7 +69,7 @@ public class Web_browser extends AppCompatActivity {
         layNonet = findViewById(R.id.layNonet);
         imgBack = findViewById(R.id.imgBack);
         webTitile = findViewById(R.id.webTitile);
-        animation = android.view.animation.AnimationUtils.loadAnimation(Web_browser.this, R.anim.middle_to_top);
+        animation = AnimationUtils.loadAnimation(Web_browser.this, R.anim.middle_to_top);
 
 
         //Creating webView programitcally which supports media player and js automatically like a browser
@@ -83,7 +84,7 @@ public class Web_browser extends AppCompatActivity {
         webView.getSettings().setUserAgentString(USER_AGENT_);
         webView.getSettings().setLoadsImagesAutomatically(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.getSettings().setAppCacheEnabled(true);
+        webView.getSettings().setDatabaseEnabled(true);
         webView.getSettings().setAllowFileAccess(true);
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
@@ -109,34 +110,6 @@ public class Web_browser extends AppCompatActivity {
         //Enable this if you want to add download feature with webview
         //dont forget to add storage permission in your manifest
 
-        /*
-        webView.setDownloadListener(new DownloadListener() {
-            @Override
-            public void onDownloadStart(final String url, final String userAgent, String contentDisposition, String mimetype, long contentLength) {
-                //Checking runtime permission for devices above Marshmallow.
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            == PackageManager.PERMISSION_GRANTED) {
-                        Log.v("WebBrowser", "Permission is granted");
-                        downloadDialog(url, userAgent, contentDisposition, mimetype);
-
-                    } else {
-
-                        Log.v("WebBrowser", "Permission is revoked");
-                        //requesting permissions.
-                        ActivityCompat.requestPermissions(WebBrowser.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
-
-                    }
-                } else {
-                    //Code for devices below API 23 or Marshmallow
-                    Log.v("WebBrowser", "Permission is granted");
-                    downloadDialog(url, userAgent, contentDisposition, mimetype);
-
-                }
-            }
-        });
-
-         */
 
 
 
@@ -148,7 +121,7 @@ public class Web_browser extends AppCompatActivity {
             layNonet.setVisibility(View.GONE);
         }
 
-        webTitile.setText(""+WEBSITE_TITLE);
+        webTitile.setText("" + WEBSITE_TITLE);
         imgBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
