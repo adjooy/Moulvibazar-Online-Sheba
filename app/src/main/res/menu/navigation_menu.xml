@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <group
+        android:id="@+id/group1"
+
+        android:checkableBehavior="single">
+        <item android:title="Task">
+            <menu>
+
+                <item
+                    android:id="@+id/Developer"
+                    android:icon="@drawable/developer2"
+                    android:title="About Developer"
+
+                    />
+
+                <item
+                    android:id="@+id/mAbout"
+                    android:icon="@drawable/aboutphone"
+                    android:title="About App" />
+
+
+
+                <item
+                    android:id="@+id/mRate"
+                    android:icon="@drawable/rateapp"
+                    android:title="Rate us" />
+
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="More ">
+
+            <menu>
+                <item
+                    android:id="@+id/mShare"
+                    android:icon="@drawable/share"
+                    android:title="Share App"
+                    />
+
+                <item
+                    android:id="@+id/mExit"
+                    android:icon="@drawable/exit"
+                    android:title="Exit" />
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+
+</menu>
