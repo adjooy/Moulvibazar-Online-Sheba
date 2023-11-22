@@ -104,7 +104,7 @@
                                 <ImageView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/ambulence"
+                                    android:src="@drawable/developerjoy"
                                     android:scaleType="fitXY"
                                     />
 
@@ -137,7 +137,7 @@
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Developer Name here"
+                                    android:text="Joy Dey"
                                     android:textSize="21dp"
                                     android:textColor="#434141"
                                     android:gravity="center"
@@ -180,7 +180,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="+8801234567"
+                                    android:text="+8801639-865109"
                                     android:textSize="18dp"
                                     android:textColor="#424040"
                                     android:textIsSelectable="true"
@@ -204,7 +204,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="developer@gmail.com"
+                                    android:text="adjooy@gmail.com"
                                     android:textSize="18dp"
                                     android:textColor="#3E3D3D"
                                     android:textIsSelectable="true"
@@ -228,7 +228,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Your Location Here"
+                                    android:text="Barlekha, Moulvibazar"
                                     android:textSize="18dp"
                                     android:textColor="#353434"
                                     android:textIsSelectable="true"

@@ -21,34 +21,6 @@
         >
 
 
-        <TextView
-            android:id="@+id/tvTitleNoNet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Something Went Wrong!"
-            android:textColor="#CC000000"
-            android:textSize="25sp"
-            android:textStyle="normal"
-            android:layout_marginLeft="2dp"
-            />
-
-
-
-        <TextView
-            android:id="@+id/tvDesNoNet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="It seems that there is no active internet connection..."
-            android:textColor="#99000000"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="2dp"
-            />
-
-
-
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieNoNet"
             android:layout_width="match_parent"
@@ -62,6 +34,18 @@
             />
 
 
+        <TextView
+            android:id="@+id/tvTitleNoNet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="ইন্টারনেট সংযোগ চালু করন। "
+            android:fontFamily="@font/regular"
+            android:textColor="#CC000000"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,7 +56,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="বিঃদ্রঃ এই সেবাটি পেতে আপনার ডিভাইসে অবশ্যই নেট কনেকশন থাকতে হবে।দয়া করে আপনার ডিভাইসে নেট কানেকশন দিন।ধন্যবাদ।"
+                android:text="এই সেবাটি পেতে আপনার ডিভাইসে অবশ্যই নেট কনেকশন থাকতে হবে।দয়া করে আপনার ডিভাইসে নেট কানেকশন দিন।ধন্যবাদ।"
                 android:background="@drawable/nointbg"
                 android:padding="20dp"
                 android:textSize="18dp"

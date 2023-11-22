@@ -240,7 +240,7 @@ public class Web_browser extends AppCompatActivity {
         }
 
 
-    } // end of onBackpressed method
+    } // end of onBackPressed method
 
     //#############################################################################################
 
@@ -268,7 +268,7 @@ public class Web_browser extends AppCompatActivity {
                 //Add cookie and User-Agent to request
                 request.addRequestHeader("Cookie", cookie);
                 request.addRequestHeader("User-Agent", userAgent);
-                //file scanned by MediaScannar
+                //file scanned by MediaScanner
                 request.allowScanningByMediaScanner();
                 //Download is visible and its progress, after completion too.
                 request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
@@ -276,7 +276,7 @@ public class Web_browser extends AppCompatActivity {
                 DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 //Saving files in Download folder
                 request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, filename);
-                //download enqued
+                //download enqueued
                 downloadManager.enqueue(request);
 
 

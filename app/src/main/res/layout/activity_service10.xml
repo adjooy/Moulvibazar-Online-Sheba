@@ -32,7 +32,7 @@
                 android:fontFamily="@font/regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="মাগুরা পল্লী বিদ্যুৎ"
+                android:text="পল্লী বিদ্যুৎ"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="20dp"
@@ -238,7 +238,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="আলাইপুর অভিযোগ কেন্দ্র"
+                                android:text="বড়লেখা অভিযোগ কেন্দ্র"
                                 android:textColor="@color/black"
                                 />
                             <TextView
@@ -375,7 +375,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="শ্রীপুর সাব-জোনাল অফিসের অভিযোগ কেন্দ্র"
+                                android:text="কুলাউড়া অভিযোগ কেন্দ্র"
                                 android:textColor="@color/black"
                                 />
                             <TextView
@@ -510,7 +510,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="লাঙ্গলবাধ অভিযোগ কেন্দ্র"
+                                android:text="জুড়ি অভিযোগ কেন্দ্র"
                                 android:textColor="@color/black"
                                 />
                             <TextView
@@ -647,7 +647,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="আড়পাড়া জোনাল অফিসের অভিযোগ কেন্দ্র"
+                                android:text="কমলগঞ্জ অভিযোগ কেন্দ্র"
                                 android:textColor="@color/black"
                                 />
                             <TextView
@@ -783,7 +783,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="বুনাগাতী অভিযোগ কেন্দ্র"
+                                android:text="রাজনগর অভিযোগ কেন্দ্র"
                                 android:textColor="@color/black"
                                 />
                             <TextView
@@ -918,7 +918,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="21dp"
-                                android:text="সিংড়া অভিযোগ কেন্দ্র"
+                                android:text="শ্রীমঙ্গল অভিযোগ কেন্দ্র"
                                 android:textColor="@color/black"
                                 />
                             <TextView

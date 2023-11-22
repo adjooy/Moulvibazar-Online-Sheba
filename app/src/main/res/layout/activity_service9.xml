@@ -26,15 +26,15 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/back"
-                />
+                android:contentDescription="@string/todo" />
             <TextView
                 android:fontFamily="@font/regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="মাগুরা সদরে কর্মরত সাংবাদিকদের তালিকা"
+                android:text="@string/Sambadik_list"
                 android:textColor="@color/white"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 />
 
 
@@ -4190,7 +4190,8 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text=" আবু বাসার আখন্দ (একুশে টেলিভিশন/দৈনিক সকালের খবর/সহ-সভাপতি-যশোর.ইনফো) - ০১৭১৬-২৩২৯৬২/৬২৯৩৯ / akhand07@gmail.com / ডিসেম্বর ২০১২"
+                            android:text="ইন্টারনেট থেকে সংগ্রহ করা"
+                            android:gravity="center"
                             android:justificationMode="inter_word"
                             android:textColor="#515151"
                             android:textSize="18dp"

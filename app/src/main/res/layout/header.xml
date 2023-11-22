@@ -37,7 +37,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:src="@drawable/magurasebalogo"
+                        android:src="@drawable/logo3"
                         />
 
 
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#F1F0EF"
-                android:text="অনলাইন সেবা"
+                android:text="মৌলভীবাজার অনলাইন সেবা"
                 android:textSize="20sp"
                 android:gravity="left"
                 android:layout_marginLeft="10dp"

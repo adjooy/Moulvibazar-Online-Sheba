@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">District Online Seba</string>
+    <string name="app_name">Moulvibazar Online Seba</string>
 
     <string name="open"></string>
     <string name="close"></string>
@@ -11,4 +11,6 @@
     <!-- Admob Ad Unit IDS Here -->
     <string name="admob_INTERSTITIAL_UNIT_ID">ca-app-pub-3940256099942544/1033173712</string>
     <string name="admob_BANNER_UNIT_ID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="todo">TODO</string>
+    <string name="Sambadik_list">মৌলভীবাজারে কর্মরত সাংবাদিকদের তালিকা</string>
 </resources>

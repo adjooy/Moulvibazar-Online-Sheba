@@ -19,6 +19,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.denzcoskun.imageslider.BuildConfig;
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
@@ -455,6 +456,7 @@ CardView Button1,Button2,Button3,Button4,Button5,Button6,Button7,Button8,Button9
     public void onBackPressed() {
         // When user press back button
 
+        super.onBackPressed();
         if (mBackPressed + TIME_INTERVAL > System.currentTimeMillis()) {
             Intent intent = new Intent(Intent.ACTION_MAIN);
             intent.addCategory(Intent.CATEGORY_HOME);
@@ -468,7 +470,6 @@ CardView Button1,Button2,Button3,Button4,Button5,Button6,Button7,Button8,Button9
         }
 
         mBackPressed = System.currentTimeMillis();
-
 
 
     } // end of onBackpressed method

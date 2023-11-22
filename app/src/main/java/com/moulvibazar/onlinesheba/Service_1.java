@@ -119,8 +119,8 @@ public class Service_1 extends AppCompatActivity {
         News1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Web_browser.WEBSITE_LINK="https://www.dainikmagurakantho.com/";
-                Web_browser.WEBSITE_TITLE="দৈনিক মাগুরা কন্ঠ";
+                Web_browser.WEBSITE_LINK="https://dainikmoulvibazar.com/";
+                Web_browser.WEBSITE_TITLE="দৈনিক মৌলভীবাজার";
                 Intent myIntent=new Intent(Service_1.this,Web_browser.class);
                 startActivity(myIntent);
             }
@@ -128,8 +128,8 @@ public class Service_1 extends AppCompatActivity {
         News2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Web_browser.WEBSITE_LINK="https://maguraprotidin.com/";
-                Web_browser.WEBSITE_TITLE="মাগুরা প্রতিদিন";
+                Web_browser.WEBSITE_LINK="https://dailymoulvibazar.com/";
+                Web_browser.WEBSITE_TITLE="ডেইলি মৌলভীবাজার";
                 Intent myIntent=new Intent(Service_1.this,Web_browser.class);
                 startActivity(myIntent);
             }
@@ -137,8 +137,8 @@ public class Service_1 extends AppCompatActivity {
         News3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Web_browser.WEBSITE_LINK="https://dainikmagura.com/";
-                Web_browser.WEBSITE_TITLE="দৈনিক মাগুরা";
+                Web_browser.WEBSITE_LINK="https://www.patakuri.com/";
+                Web_browser.WEBSITE_TITLE="পাতাকুড়ি";
                 Intent myIntent=new Intent(Service_1.this,Web_browser.class);
                 startActivity(myIntent);
             }
@@ -146,8 +146,8 @@ public class Service_1 extends AppCompatActivity {
         News4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Web_browser.WEBSITE_LINK="http://magurabarta24.com/";
-                Web_browser.WEBSITE_TITLE="মাগুরা বার্তা ২৪";
+                Web_browser.WEBSITE_LINK="https://moulvibazar24.com/";
+                Web_browser.WEBSITE_TITLE="Moulvibazar24.COM";
                 Intent myIntent=new Intent(Service_1.this,Web_browser.class);
                 startActivity(myIntent);
             }
@@ -155,8 +155,8 @@ public class Service_1 extends AppCompatActivity {
         News5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Web_browser.WEBSITE_LINK="https://www.maguranews.com/";
-                Web_browser.WEBSITE_TITLE="মাগুরা নিউজ";
+                Web_browser.WEBSITE_LINK="https://mzamin.com/";
+                Web_browser.WEBSITE_TITLE="মানব জমিন";
                 Intent myIntent=new Intent(Service_1.this,Web_browser.class);
                 startActivity(myIntent);
             }

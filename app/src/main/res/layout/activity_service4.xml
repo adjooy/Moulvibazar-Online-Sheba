@@ -32,7 +32,7 @@
                 android:fontFamily="@font/regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="এ্যাম্বুলেন্স সার্ভিস মাগুরা"
+                android:text="এ্যাম্বুলেন্স সার্ভিস"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="20dp"

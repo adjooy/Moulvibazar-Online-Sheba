@@ -36,7 +36,7 @@
                 android:fontFamily="@font/regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="মাগুরা জেলার প্রতিদিনের খবর"
+                android:text="প্রতিদিনের খবর"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="20dp"
@@ -108,7 +108,7 @@
                             <ImageView
                                 android:layout_width="300dp"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/doinikmagurakontho"
+                                android:src="@drawable/news1"
                                 />
 
 
@@ -207,7 +207,7 @@
                             <ImageView
                                 android:layout_width="300dp"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/dailymagura"
+                                android:src="@drawable/news2"
                                 />
 
 
@@ -308,7 +308,7 @@
                             <ImageView
                                 android:layout_width="300dp"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/doinikmagura"
+                                android:src="@drawable/news3"
                                 />
 
 
@@ -410,7 +410,7 @@
                             <ImageView
                                 android:layout_width="300dp"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/magurabarta"
+                                android:src="@drawable/news4"
                                 />
 
 
@@ -510,7 +510,7 @@
                             <ImageView
                                 android:layout_width="300dp"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/mnews"
+                                android:src="@drawable/news5"
                                 />
 
 
