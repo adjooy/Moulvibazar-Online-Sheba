@@ -1,6 +1,5 @@
-package com.company.districtseba;
+package com.bd.onlinesheba;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -11,99 +10,110 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.FullScreenContentCallback;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
-public class Service_11 extends AppCompatActivity {
-
-
+public class Service_2 extends AppCompatActivity {
     AdView mAdView;
     InterstitialAd mInterstitialAd;
-    LottieAnimationView hotel1,hotel2,hotel3,hotel4,hotel5;
-    ImageView back;
+
+
     public String num="";
+     ImageView back2;
+    LottieAnimationView Hospital1,Hospital2,Hospital3,Hospital4,Hospital5,Hospital6,Hospital7,Hospital8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service11);
+        setContentView(R.layout.activity_service2);
 
 
-        hotel1=findViewById(R.id.hotel1);
-        hotel2=findViewById(R.id.hotel2);
-        hotel3=findViewById(R.id.hotel3);
-        hotel4=findViewById(R.id.hotel4);
-        hotel5=findViewById(R.id.hotel5);
+        Hospital1=findViewById(R.id.Hospital1);
+        Hospital2=findViewById(R.id.Hospital2);
+        Hospital3=findViewById(R.id.Hospital3);
+        Hospital4=findViewById(R.id.Hospital4);
+        Hospital5=findViewById(R.id.Hospital5);
+        Hospital6=findViewById(R.id.Hospital6);
+        Hospital7=findViewById(R.id.Hospital7);
+        Hospital8=findViewById(R.id.Hospital8);
+        back2=findViewById(R.id.back2);
+
+        mAdView=findViewById(R.id.adView);
+
+        mAdView.setVisibility(View.GONE);
 
 
-        back=findViewById(R.id.back11);
-        back.setOnClickListener(new View.OnClickListener() {
+        back2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Service_11.super.onBackPressed();
+                Service_2.super.onBackPressed();
 
             }
         });
 
 
-
-
-        //======================================Hotel==================================================//
-
-        hotel1.setOnClickListener(new View.OnClickListener() {
+        Hospital1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01789-031073";
+                num="048862443";
                 callPhoneNumber();
             }
         });
-        hotel2.setOnClickListener(new View.OnClickListener() {
+        Hospital2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01979-966218";
+                num=" 01789-122193";
                 callPhoneNumber();
             }
         });
-        hotel3.setOnClickListener(new View.OnClickListener() {
+        Hospital3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01826-635200";
+                num="01715-119110";
                 callPhoneNumber();
             }
         });
-        hotel4.setOnClickListener(new View.OnClickListener() {
+        Hospital4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01705-301720";
+                num="01729-033018";
                 callPhoneNumber();
             }
         });
-        hotel5.setOnClickListener(new View.OnClickListener() {
+        Hospital5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01718-087171";
+                num="01311-444901";
                 callPhoneNumber();
             }
         });
+        Hospital6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01712-310309";
+                callPhoneNumber();
+            }
+        });
+        Hospital7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01715-534855";
+                callPhoneNumber();
+            }
+        });
+        Hospital8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01766-661177";
+                callPhoneNumber();
+            }
+        });
+
+
     }
 
 
@@ -129,7 +139,7 @@ public class Service_11 extends AppCompatActivity {
             if(Build.VERSION.SDK_INT > 22)
             {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(Service_11.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
+                    ActivityCompat.requestPermissions(Service_2.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
                     return;
                 }
 
@@ -152,6 +162,5 @@ public class Service_11 extends AppCompatActivity {
 
     //==================================================================================//
 
-    //==============================================Banner ad start=============================//
 
 }

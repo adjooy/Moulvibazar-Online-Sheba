@@ -1,6 +1,5 @@
-package com.company.districtseba;
+package com.bd.onlinesheba;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -11,58 +10,47 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.FullScreenContentCallback;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
-public class Service_6 extends AppCompatActivity {
+public class Service_4 extends AppCompatActivity {
+    public String num="";
+
+    ImageView back;
+    LottieAnimationView Ambulence1,Ambulence2,Ambulence3,Ambulence4,Ambulence5
+            ,Ambulence6,Ambulence7,Ambulence8,Ambulence9,Ambulence10;
 
     AdView mAdView;
     InterstitialAd mInterstitialAd;
-    public String num="";
-    ImageView back;
-    LottieAnimationView Help1,Help2,Help3,Help4,Help5,
-            Help6,Help7,Help8,Help9;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service6);
+        setContentView(R.layout.activity_service4);
 
 
-        Help1=findViewById(R.id.Help1);
-        Help2=findViewById(R.id.Help2);
-        Help3=findViewById(R.id.Help3);
-        Help4=findViewById(R.id.Help4);
-        Help5=findViewById(R.id.Help5);
-        Help6=findViewById(R.id.Help6);
-        Help7=findViewById(R.id.Help7);
-        Help8=findViewById(R.id.Help8);
-        Help9=findViewById(R.id.Help9);
+        Ambulence1=findViewById(R.id.Ambulence1);
+        Ambulence2=findViewById(R.id.Ambulence2);
+        Ambulence3=findViewById(R.id.Ambulence3);
+        Ambulence4=findViewById(R.id.Ambulence4);
+        Ambulence5=findViewById(R.id.Ambulence5);
+        Ambulence6=findViewById(R.id.Ambulence6);
+        Ambulence7=findViewById(R.id.Ambulence7);
+        Ambulence8=findViewById(R.id.Ambulence8);
+        Ambulence9=findViewById(R.id.Ambulence9);
+        Ambulence10=findViewById(R.id.Ambulence10);
 
-        back=findViewById(R.id.back6);
+        back=findViewById(R.id.back4);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Service_6.super.onBackPressed();
+                Service_4.super.onBackPressed();
 
             }
         });
@@ -72,72 +60,80 @@ public class Service_6 extends AppCompatActivity {
 
 
 
-        //=============================Helpline================================================//
-        Help1.setOnClickListener(new View.OnClickListener() {
+
+
+        //==============================Ambulence===============================================//
+        Ambulence1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="999";
+                num="01734-260454";
                 callPhoneNumber();
             }
         });
-        Help2.setOnClickListener(new View.OnClickListener() {
+        Ambulence2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="16575";
+                num="01717-834444";
                 callPhoneNumber();
             }
         });
-        Help3.setOnClickListener(new View.OnClickListener() {
+        Ambulence3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="109";
+                num="01712-256965";
                 callPhoneNumber();
             }
         });
-        Help4.setOnClickListener(new View.OnClickListener() {
+        Ambulence4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="1098";
+                num="01724-597927";
                 callPhoneNumber();
             }
         });
-        Help5.setOnClickListener(new View.OnClickListener() {
+        Ambulence5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="333";
+                num="01712-217475";
                 callPhoneNumber();
             }
         });
-        Help6.setOnClickListener(new View.OnClickListener() {
+        Ambulence6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="106";
+                num="01680-367678";
                 callPhoneNumber();
             }
         });
-        Help7.setOnClickListener(new View.OnClickListener() {
+        Ambulence7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="16430";
+                num="01714-693849";
                 callPhoneNumber();
             }
         });
-        Help8.setOnClickListener(new View.OnClickListener() {
+        Ambulence8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="1090";
+                num="01714-660909";
                 callPhoneNumber();
             }
         });
-        Help9.setOnClickListener(new View.OnClickListener() {
+        Ambulence9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="16122";
+                num="01711-805375";
+                callPhoneNumber();
+            }
+        });
+        Ambulence10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01715-931806";
                 callPhoneNumber();
             }
         });
 
-        //=============================end=====================================================//
 
 
     }
@@ -164,7 +160,7 @@ public class Service_6 extends AppCompatActivity {
             if(Build.VERSION.SDK_INT > 22)
             {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(Service_6.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
+                    ActivityCompat.requestPermissions(Service_4.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
                     return;
                 }
 
@@ -186,7 +182,6 @@ public class Service_6 extends AppCompatActivity {
     }
 
     //==================================================================================//
-
 
 
 

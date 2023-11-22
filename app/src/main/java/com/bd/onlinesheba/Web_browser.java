@@ -1,4 +1,4 @@
-package com.company.districtseba;
+package com.bd.onlinesheba;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

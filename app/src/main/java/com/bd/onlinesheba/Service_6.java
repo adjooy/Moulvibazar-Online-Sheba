@@ -1,6 +1,5 @@
-package com.company.districtseba;
+package com.bd.onlinesheba;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -11,127 +10,121 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.FullScreenContentCallback;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
-public class Service_2 extends AppCompatActivity {
+public class Service_6 extends AppCompatActivity {
+
     AdView mAdView;
     InterstitialAd mInterstitialAd;
-
-
     public String num="";
-     ImageView back2;
-    LottieAnimationView Hospital1,Hospital2,Hospital3,Hospital4,Hospital5,Hospital6,Hospital7,Hospital8;
+    ImageView back;
+    LottieAnimationView Help1,Help2,Help3,Help4,Help5,
+            Help6,Help7,Help8,Help9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service2);
+        setContentView(R.layout.activity_service6);
 
 
-        Hospital1=findViewById(R.id.Hospital1);
-        Hospital2=findViewById(R.id.Hospital2);
-        Hospital3=findViewById(R.id.Hospital3);
-        Hospital4=findViewById(R.id.Hospital4);
-        Hospital5=findViewById(R.id.Hospital5);
-        Hospital6=findViewById(R.id.Hospital6);
-        Hospital7=findViewById(R.id.Hospital7);
-        Hospital8=findViewById(R.id.Hospital8);
-        back2=findViewById(R.id.back2);
+        Help1=findViewById(R.id.Help1);
+        Help2=findViewById(R.id.Help2);
+        Help3=findViewById(R.id.Help3);
+        Help4=findViewById(R.id.Help4);
+        Help5=findViewById(R.id.Help5);
+        Help6=findViewById(R.id.Help6);
+        Help7=findViewById(R.id.Help7);
+        Help8=findViewById(R.id.Help8);
+        Help9=findViewById(R.id.Help9);
 
-        mAdView=findViewById(R.id.adView);
-
-        mAdView.setVisibility(View.GONE);
-
-
-        back2.setOnClickListener(new View.OnClickListener() {
+        back=findViewById(R.id.back6);
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Service_2.super.onBackPressed();
+                Service_6.super.onBackPressed();
 
             }
         });
 
 
-        Hospital1.setOnClickListener(new View.OnClickListener() {
+
+
+
+
+        //=============================Helpline================================================//
+        Help1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="048862443";
+                num="999";
                 callPhoneNumber();
             }
         });
-        Hospital2.setOnClickListener(new View.OnClickListener() {
+        Help2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num=" 01789-122193";
+                num="16575";
                 callPhoneNumber();
             }
         });
-        Hospital3.setOnClickListener(new View.OnClickListener() {
+        Help3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01715-119110";
+                num="109";
                 callPhoneNumber();
             }
         });
-        Hospital4.setOnClickListener(new View.OnClickListener() {
+        Help4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01729-033018";
+                num="1098";
                 callPhoneNumber();
             }
         });
-        Hospital5.setOnClickListener(new View.OnClickListener() {
+        Help5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01311-444901";
+                num="333";
                 callPhoneNumber();
             }
         });
-        Hospital6.setOnClickListener(new View.OnClickListener() {
+        Help6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01712-310309";
+                num="106";
                 callPhoneNumber();
             }
         });
-        Hospital7.setOnClickListener(new View.OnClickListener() {
+        Help7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01715-534855";
+                num="16430";
                 callPhoneNumber();
             }
         });
-        Hospital8.setOnClickListener(new View.OnClickListener() {
+        Help8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01766-661177";
+                num="1090";
                 callPhoneNumber();
             }
         });
+        Help9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="16122";
+                callPhoneNumber();
+            }
+        });
+
+        //=============================end=====================================================//
 
 
     }
-
 
     //......................call method.....................//
 
@@ -155,7 +148,7 @@ public class Service_2 extends AppCompatActivity {
             if(Build.VERSION.SDK_INT > 22)
             {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(Service_2.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
+                    ActivityCompat.requestPermissions(Service_6.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
                     return;
                 }
 
@@ -177,6 +170,8 @@ public class Service_2 extends AppCompatActivity {
     }
 
     //==================================================================================//
+
+
 
 
 }

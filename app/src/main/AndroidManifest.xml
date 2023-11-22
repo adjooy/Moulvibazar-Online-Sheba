@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.company.districtseba">
+    package="com.bd.onlinesheba">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,49 +22,49 @@
         android:theme="@style/Theme.MaguraOnlineSeba"
         tools:targetApi="31">
         <activity
-            android:name=".About_app"
+            android:name="com.bd.onlinesheba.About_app"
             android:exported="false" />
         <activity
-            android:name=".Developer"
+            android:name="com.bd.onlinesheba.Developer"
             android:exported="false" />
         <activity
-            android:name=".Service_12"
+            android:name="com.bd.onlinesheba.Service_12"
             android:exported="false" />
         <activity
-            android:name=".Service_3"
+            android:name="com.bd.onlinesheba.Service_3"
             android:exported="false" />
         <activity
-            android:name=".Service_11"
+            android:name="com.bd.onlinesheba.Service_11"
             android:exported="false" />
         <activity
-            android:name=".Service_10"
+            android:name="com.bd.onlinesheba.Service_10"
             android:exported="false" />
         <activity
-            android:name=".Service_9"
+            android:name="com.bd.onlinesheba.Service_9"
             android:exported="false" />
         <activity
-            android:name=".Service_8"
+            android:name="com.bd.onlinesheba.Service_8"
             android:exported="false" />
         <activity
-            android:name=".Service_6"
+            android:name="com.bd.onlinesheba.Service_6"
             android:exported="false" />
         <activity
-            android:name=".Service_7"
+            android:name="com.bd.onlinesheba.Service_7"
             android:exported="false" />
         <activity
-            android:name=".Service_5"
+            android:name="com.bd.onlinesheba.Service_5"
             android:exported="false" />
         <activity
-            android:name=".Service_4"
+            android:name="com.bd.onlinesheba.Service_4"
             android:exported="false" />
         <activity
-            android:name=".Service_2"
+            android:name="com.bd.onlinesheba.Service_2"
             android:exported="false" />
         <activity
-            android:name=".Service_1"
+            android:name="com.bd.onlinesheba.Service_1"
             android:exported="false" />
         <activity
-            android:name=".Splash"
+            android:name="com.bd.onlinesheba.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -69,13 +73,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Web_browser"
+            android:name="com.bd.onlinesheba.Web_browser"
             android:exported="false" />
         <activity
-            android:name=".Service"
+            android:name="com.bd.onlinesheba.Service"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.bd.onlinesheba.MainActivity"
             android:exported="true"
             tools:ignore="ExtraText" />
 

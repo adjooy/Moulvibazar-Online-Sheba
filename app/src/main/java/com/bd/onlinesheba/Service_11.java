@@ -1,4 +1,4 @@
-package com.company.districtseba;
+package com.bd.onlinesheba;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -14,88 +14,80 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
 
-public class Service_7 extends AppCompatActivity {
+public class Service_11 extends AppCompatActivity {
+
+
     AdView mAdView;
-
-    public  String num="";
+    InterstitialAd mInterstitialAd;
+    LottieAnimationView hotel1,hotel2,hotel3,hotel4,hotel5;
     ImageView back;
-    LottieAnimationView Police1,Police2,Police3,Police4;
+    public String num="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service7);
+        setContentView(R.layout.activity_service11);
 
-        Police1=findViewById(R.id.police1);
-        Police2=findViewById(R.id.police2);
-        Police3=findViewById(R.id.police3);
-        Police4=findViewById(R.id.police4);
-        back=findViewById(R.id.back7);
+
+        hotel1=findViewById(R.id.hotel1);
+        hotel2=findViewById(R.id.hotel2);
+        hotel3=findViewById(R.id.hotel3);
+        hotel4=findViewById(R.id.hotel4);
+        hotel5=findViewById(R.id.hotel5);
+
+
+        back=findViewById(R.id.back11);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Service_7.super.onBackPressed();
+                Service_11.super.onBackPressed();
 
             }
         });
 
 
-        //=======================================================Ads start=================================//
-        mAdView=findViewById(R.id.adView);
-
-        mAdView.setVisibility(View.GONE);
 
 
+        //======================================Hotel==================================================//
 
-
-
-
-        //==============================Police=================================================/
-        Police1.setOnClickListener(new View.OnClickListener() {
+        hotel1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01713-374179";
+                num="01789-031073";
                 callPhoneNumber();
             }
         });
-        Police2.setOnClickListener(new View.OnClickListener() {
+        hotel2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01713-374180";
+                num="01979-966218";
                 callPhoneNumber();
             }
         });
-        Police3.setOnClickListener(new View.OnClickListener() {
+        hotel3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01713-374181";
+                num="01826-635200";
                 callPhoneNumber();
             }
         });
-        Police4.setOnClickListener(new View.OnClickListener() {
+        hotel4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num="01713-374182";
+                num="01705-301720";
                 callPhoneNumber();
             }
         });
-
-        //================================end==================================================//
-
+        hotel5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                num="01718-087171";
+                callPhoneNumber();
+            }
+        });
     }
 
 
@@ -121,7 +113,7 @@ public class Service_7 extends AppCompatActivity {
             if(Build.VERSION.SDK_INT > 22)
             {
                 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(Service_7.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
+                    ActivityCompat.requestPermissions(Service_11.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
                     return;
                 }
 
@@ -144,8 +136,6 @@ public class Service_7 extends AppCompatActivity {
 
     //==================================================================================//
 
-
-
-
+    //==============================================Banner ad start=============================//
 
 }
